@@ -41,6 +41,7 @@ class SnackbarScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            
             FilledButton.tonal(
               onPressed: () {
                 showAboutDialog(
